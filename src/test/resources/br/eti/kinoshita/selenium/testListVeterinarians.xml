@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="PetClinic - Test Suite" configfailurepolicy="skip" parallel="false">
+  <listeners>
+    <listener class-name="org.tap4j.ext.testng.SuiteTAPReporter" /> 
+  </listeners>
+  <test name="PetClinic - List Veterinarians" preserve-order="true" parallel="false">
+    <classes>
+       <class name="br.eti.kinoshita.selenium.TestListVeterinarians" />
+    </classes>	
+  </test>
+</suite>
