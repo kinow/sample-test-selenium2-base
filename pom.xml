@@ -7,7 +7,7 @@
   	<dependency>
   		<groupId>br.eti.kinoshita</groupId>
   		<artifactId>selenium2-base</artifactId>
-  		<version>0.1-SNAPSHOT</version>
+  		<version>0.1</version>
   	</dependency>
   	<dependency>
   		<groupId>org.fluttercode.datafactory</groupId>
