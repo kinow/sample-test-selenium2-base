@@ -12,3 +12,6 @@ decide what suits you better.
 
 For further details on selenium2-base, please check [selenium2-base]
 (http://www.github.com/kinow/selenium2-base) project page.
+
+Fill issues with features, bugs or any other general request. Ideas are always 
+welcome.
