@@ -1,0 +1,547 @@
+[0.000][INFO]:      ChromeDriver 19.0.1068.0 /opt/google/chrome/chromedriver
+[0.131][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.131][INFO]:      Launching chrome: /opt/google/chrome/google-chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[0.340][INFO]:      Connected to Chrome successfully. Version: 17.0.963.79
+[0.370][FINE]:      Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4)
+[0.370][FINE]:      Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "19.0.1068.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "linux",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "17.0.963.79",
+      "webStorageEnabled": false
+   }
+}
+
+[0.685][FINE]:      Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/url) with params {
+   "url": "http://www.google.com"
+}
+
+[0.685][FINER]:     Waiting for all views to stop loading...
+[0.685][FINER]:     Done waiting for all views to stop loading
+[12.957][FINER]:    Waiting for all views to stop loading...
+[12.960][FINER]:    Done waiting for all views to stop loading
+[12.960][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/url) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.107][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/title)
+[13.107][FINER]:    Waiting for all views to stop loading...
+[13.107][FINER]:    Done waiting for all views to stop loading
+[13.128][FINER]:    Waiting for all views to stop loading...
+[13.128][FINER]:    Done waiting for all views to stop loading
+[13.128][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/title) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Google"
+}
+
+[13.132][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot)
+[13.132][FINER]:    Waiting for all views to stop loading...
+[13.132][FINER]:    Done waiting for all views to stop loading
+[13.175][FINER]:    Waiting for all views to stop loading...
+[13.175][FINER]:    Done waiting for all views to stop loading
+[13.175][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAABAMAAAI7CAIAAAAWJcWDAAAgAElEQVR4nOzdeXwU9f0/8Pfszu7Mntkkm/tOOEIAualS8PpVQ..."
+}
+
+[13.232][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "name",
+   "value": "q"
+}
+
+[13.232][FINER]:    Waiting for all views to stop loading...
+[13.232][FINER]:    Done waiting for all views to stop loading
+[13.246][FINER]:    Waiting for all views to stop loading...
+[13.246][FINER]:    Done waiting for all views to stop loading
+[13.246][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1332355377014"
+   }
+}
+
+[13.291][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377014/value) with params {
+   "id": ":wdc:1332355377014",
+   "value": [ "Minecraft Diamonds" ]
+}
+
+[13.291][FINER]:    Waiting for all views to stop loading...
+[13.291][FINER]:    Done waiting for all views to stop loading
+[13.409][FINER]:    Waiting for all views to stop loading...
+[13.409][FINER]:    Done waiting for all views to stop loading
+[13.409][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377014/value) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.450][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "name",
+   "value": "btnK"
+}
+
+[13.450][FINER]:    Waiting for all views to stop loading...
+[13.450][FINER]:    Done waiting for all views to stop loading
+[13.464][FINER]:    Waiting for all views to stop loading...
+[13.465][FINER]:    Done waiting for all views to stop loading
+[13.465][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1332355377015"
+   }
+}
+
+[13.506][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377015/submit) with params {
+   "id": ":wdc:1332355377015"
+}
+
+[13.506][FINER]:    Waiting for all views to stop loading...
+[13.507][FINER]:    Done waiting for all views to stop loading
+[13.535][FINER]:    Waiting for all views to stop loading...
+[13.536][FINER]:    Done waiting for all views to stop loading
+[13.536][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377015/submit) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": null
+}
+
+[13.580][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "xpath",
+   "value": "//h3[@class='r']//a"
+}
+
+[13.580][FINER]:    Waiting for all views to stop loading...
+[13.580][FINER]:    Done waiting for all views to stop loading
+[13.594][FINER]:    Waiting for all views to stop loading...
+[13.595][FINER]:    Done waiting for all views to stop loading
+[13.595][WARNING]:  Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[14.641][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "xpath",
+   "value": "//h3[@class='r']//a"
+}
+
+[14.641][FINER]:    Waiting for all views to stop loading...
+[14.642][FINER]:    Done waiting for all views to stop loading
+[14.674][FINER]:    Waiting for all views to stop loading...
+[14.675][FINER]:    Done waiting for all views to stop loading
+[14.675][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1332355377016"
+   }
+}
+
+[14.677][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377016/enabled)
+[14.677][FINER]:    Waiting for all views to stop loading...
+[14.701][FINER]:    Done waiting for all views to stop loading
+[14.777][FINER]:    Waiting for all views to stop loading...
+[14.826][FINER]:    Done waiting for all views to stop loading
+[14.826][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377016/enabled) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": true
+}
+
+[14.866][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377016/displayed)
+[14.866][FINER]:    Waiting for all views to stop loading...
+[14.866][FINER]:    Done waiting for all views to stop loading
+[14.877][FINER]:    Waiting for all views to stop loading...
+[14.877][FINER]:    Done waiting for all views to stop loading
+[14.877][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377016/displayed) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": true
+}
+
+[14.918][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/elements) with params {
+   "using": "xpath",
+   "value": "//h3[@class='r']//a"
+}
+
+[14.918][FINER]:    Waiting for all views to stop loading...
+[14.918][FINER]:    Done waiting for all views to stop loading
+[14.931][FINER]:    Waiting for all views to stop loading...
+[14.932][FINER]:    Done waiting for all views to stop loading
+[14.932][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/elements) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1332355377016"
+   }, {
+      "ELEMENT": ":wdc:1332355377017"
+   }, {
+      "ELEMENT": ":wdc:1332355377018"
+   }, {
+      "ELEMENT": ":wdc:1332355377019"
+   }, {
+      "ELEMENT": ":wdc:1332355377020"
+   }, {
+      "ELEMENT": ":wdc:1332355377021"
+   }, {
+      "ELEMENT": ":wdc:1332355377022"
+   }, {
+      "ELEMENT": ":wdc:1332355377023"
+   }, {
+      "ELEMENT": ":wdc:1332355377024"
+   }, {
+      "ELEMENT": ":wdc:1332355377025"
+   } ]
+}
+
+[14.977][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/title)
+[14.977][FINER]:    Waiting for all views to stop loading...
+[14.978][FINER]:    Done waiting for all views to stop loading
+[14.980][FINER]:    Waiting for all views to stop loading...
+[14.980][FINER]:    Done waiting for all views to stop loading
+[14.980][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/title) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "minecraft diamonds - Pesquisa Google"
+}
+
+[15.022][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot)
+[15.022][FINER]:    Waiting for all views to stop loading...
+[15.022][FINER]:    Done waiting for all views to stop loading
+[15.140][FINER]:    Waiting for all views to stop loading...
+[15.140][FINER]:    Done waiting for all views to stop loading
+[15.140][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAABAMAAAXnCAIAAAC2fidZAAAgAElEQVR4nOzdd3gUxf8H8Nm93tITCAECgUAghB5qAohKEVSwA..."
+}
+
+[15.175][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377016/text)
+[15.175][FINER]:    Waiting for all views to stop loading...
+[15.176][FINER]:    Done waiting for all views to stop loading
+[15.187][FINER]:    Waiting for all views to stop loading...
+[15.187][FINER]:    Done waiting for all views to stop loading
+[15.187][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377016/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Diamond Ore - Minecraft Wiki"
+}
+
+[15.233][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377017/text)
+[15.233][FINER]:    Waiting for all views to stop loading...
+[15.233][FINER]:    Done waiting for all views to stop loading
+[15.249][FINER]:    Waiting for all views to stop loading...
+[15.249][FINER]:    Done waiting for all views to stop loading
+[15.249][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377017/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Diamond - Minecraft Wiki"
+}
+
+[15.290][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377018/text)
+[15.290][FINER]:    Waiting for all views to stop loading...
+[15.290][FINER]:    Done waiting for all views to stop loading
+[15.301][FINER]:    Waiting for all views to stop loading...
+[15.302][FINER]:    Done waiting for all views to stop loading
+[15.302][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377018/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "How to find Diamonds in Minecraft - Using Branch Mining - YouTube"
+}
+
+[15.342][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377019/text)
+[15.342][FINER]:    Waiting for all views to stop loading...
+[15.342][FINER]:    Done waiting for all views to stop loading
+[15.354][FINER]:    Waiting for all views to stop loading...
+[15.354][FINER]:    Done waiting for all views to stop loading
+[15.354][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355377019/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Minecraft : Tutorial to find diamonds - YouTube"
+}
+
+[15.397][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/url) with params {
+   "url": "http://www.google.com"
+}
+
+[15.397][FINER]:    Waiting for all views to stop loading...
+[15.398][FINER]:    Done waiting for all views to stop loading
+[15.866][FINER]:    Waiting for all views to stop loading...
+[15.870][FINER]:    Done waiting for all views to stop loading
+[15.870][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/url) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[15.993][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/title)
+[15.993][FINER]:    Waiting for all views to stop loading...
+[15.993][FINER]:    Done waiting for all views to stop loading
+[15.995][FINER]:    Waiting for all views to stop loading...
+[15.995][FINER]:    Done waiting for all views to stop loading
+[15.995][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/title) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Google"
+}
+
+[15.998][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot)
+[15.998][FINER]:    Waiting for all views to stop loading...
+[15.998][FINER]:    Done waiting for all views to stop loading
+[16.042][FINER]:    Waiting for all views to stop loading...
+[16.042][FINER]:    Done waiting for all views to stop loading
+[16.042][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAABAMAAAJfCAIAAACFQIjPAAAgAElEQVR4nOzdeXwU9f0/8Pfszu7Mntkkm/tOOEIAualS8PpVQ..."
+}
+
+[16.070][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "name",
+   "value": "q"
+}
+
+[16.070][FINER]:    Waiting for all views to stop loading...
+[16.070][FINER]:    Done waiting for all views to stop loading
+[16.075][FINER]:    Waiting for all views to stop loading...
+[16.075][FINER]:    Done waiting for all views to stop loading
+[16.075][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1332355379842"
+   }
+}
+
+[16.114][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379842/value) with params {
+   "id": ":wdc:1332355379842",
+   "value": [ "Minecraft Diamonds" ]
+}
+
+[16.114][FINER]:    Waiting for all views to stop loading...
+[16.115][FINER]:    Done waiting for all views to stop loading
+[16.216][FINER]:    Waiting for all views to stop loading...
+[16.216][FINER]:    Done waiting for all views to stop loading
+[16.216][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379842/value) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[16.258][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "name",
+   "value": "btnG"
+}
+
+[16.258][FINER]:    Waiting for all views to stop loading...
+[16.259][FINER]:    Done waiting for all views to stop loading
+[16.271][FINER]:    Waiting for all views to stop loading...
+[16.271][FINER]:    Done waiting for all views to stop loading
+[16.271][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1332355379843"
+   }
+}
+
+[16.310][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379843/submit) with params {
+   "id": ":wdc:1332355379843"
+}
+
+[16.310][FINER]:    Waiting for all views to stop loading...
+[16.310][FINER]:    Done waiting for all views to stop loading
+[16.340][FINER]:    Waiting for all views to stop loading...
+[16.340][FINER]:    Done waiting for all views to stop loading
+[16.340][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379843/submit) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": null
+}
+
+[16.383][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "xpath",
+   "value": "//h3[@class='r']//a"
+}
+
+[16.383][FINER]:    Waiting for all views to stop loading...
+[16.384][FINER]:    Done waiting for all views to stop loading
+[16.389][FINER]:    Waiting for all views to stop loading...
+[16.389][FINER]:    Done waiting for all views to stop loading
+[16.389][WARNING]:  Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[16.930][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with params {
+   "using": "xpath",
+   "value": "//h3[@class='r']//a"
+}
+
+[16.930][FINER]:    Waiting for all views to stop loading...
+[16.935][FINER]:    Done waiting for all views to stop loading
+[16.939][FINER]:    Waiting for all views to stop loading...
+[16.940][FINER]:    Done waiting for all views to stop loading
+[16.940][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1332355379844"
+   }
+}
+
+[16.943][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/title)
+[16.943][FINER]:    Waiting for all views to stop loading...
+[16.944][FINER]:    Done waiting for all views to stop loading
+[16.946][FINER]:    Waiting for all views to stop loading...
+[16.949][FINER]:    Done waiting for all views to stop loading
+[16.949][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/title) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "minecraft diamonds - Pesquisa Google"
+}
+
+[16.990][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot)
+[16.990][FINER]:    Waiting for all views to stop loading...
+[16.990][FINER]:    Done waiting for all views to stop loading
+[17.108][FINER]:    Waiting for all views to stop loading...
+[17.108][FINER]:    Done waiting for all views to stop loading
+[17.108][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/screenshot) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAABAMAAAXnCAIAAAC2fidZAAAgAElEQVR4nOzdd3gUxd8A8O/u9ZZOCmkkhJpAgBCkJKCooQoER..."
+}
+
+[17.140][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/elements) with params {
+   "using": "xpath",
+   "value": "//h3[@class='r']//a"
+}
+
+[17.140][FINER]:    Waiting for all views to stop loading...
+[17.140][FINER]:    Done waiting for all views to stop loading
+[17.145][FINER]:    Waiting for all views to stop loading...
+[17.145][FINER]:    Done waiting for all views to stop loading
+[17.145][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/elements) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1332355379844"
+   }, {
+      "ELEMENT": ":wdc:1332355379845"
+   }, {
+      "ELEMENT": ":wdc:1332355379846"
+   }, {
+      "ELEMENT": ":wdc:1332355379847"
+   }, {
+      "ELEMENT": ":wdc:1332355379848"
+   }, {
+      "ELEMENT": ":wdc:1332355379849"
+   }, {
+      "ELEMENT": ":wdc:1332355379850"
+   }, {
+      "ELEMENT": ":wdc:1332355379851"
+   }, {
+      "ELEMENT": ":wdc:1332355379852"
+   }, {
+      "ELEMENT": ":wdc:1332355379853"
+   } ]
+}
+
+[17.186][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379844/text)
+[17.187][FINER]:    Waiting for all views to stop loading...
+[17.187][FINER]:    Done waiting for all views to stop loading
+[17.198][FINER]:    Waiting for all views to stop loading...
+[17.199][FINER]:    Done waiting for all views to stop loading
+[17.199][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379844/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Diamond Ore - Minecraft Wiki"
+}
+
+[17.238][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379845/text)
+[17.238][FINER]:    Waiting for all views to stop loading...
+[17.239][FINER]:    Done waiting for all views to stop loading
+[17.249][FINER]:    Waiting for all views to stop loading...
+[17.249][FINER]:    Done waiting for all views to stop loading
+[17.249][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379845/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Diamond - Minecraft Wiki"
+}
+
+[17.290][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379846/text)
+[17.290][FINER]:    Waiting for all views to stop loading...
+[17.290][FINER]:    Done waiting for all views to stop loading
+[17.303][FINER]:    Waiting for all views to stop loading...
+[17.303][FINER]:    Done waiting for all views to stop loading
+[17.303][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379846/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "How to find Diamonds in Minecraft - Using Branch Mining - YouTube"
+}
+
+[17.342][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379847/text)
+[17.342][FINER]:    Waiting for all views to stop loading...
+[17.342][FINER]:    Done waiting for all views to stop loading
+[17.354][FINER]:    Waiting for all views to stop loading...
+[17.355][FINER]:    Done waiting for all views to stop loading
+[17.355][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/element/:wdc:1332355379847/text) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": "Minecraft : Tutorial to find diamonds - YouTube"
+}
+
+[17.396][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4/window)
+[17.397][FINE]:     Command finished (/session/ef016778230ebae4d5f1c1c66aaef6f4/window) with response {
+   "sessionId": "ef016778230ebae4d5f1c1c66aaef6f4",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[17.438][FINE]:     Command received (/session/ef016778230ebae4d5f1c1c66aaef6f4)

@@ -99,7 +99,7 @@ extends DataDrivenSeleniumWebTest
 		
 		inputQueryField.sendKeys( search );
 		
-		WebElement searchButton = driver.findElement(By.name("btnG"));
+		WebElement searchButton = driver.findElement(By.name("btnK"));
 		
 		searchButton.submit();
 		
